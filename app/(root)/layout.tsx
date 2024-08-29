@@ -7,9 +7,9 @@ export default function RootLayout({
 }>) {
   return (
     <div>
-        <main> <p className="text-white-1">left side</p> 
+        <main> <p className="text-white-1">LEFT side</p> 
             {children} 
-            <p className="text-white-1">right side</p>  </main>
+            <p className="text-white-1">RIGHT side</p>  </main>
     </div>
   );
 }
